@@ -1,0 +1,41 @@
+section.hero .left-section {
+  flex-grow: 1;
+}
+
+section.hero {
+  margin-top: 3rem;
+}
+
+section div.parent-avatar img {
+  width: 100px;
+  border: 1px solid gold;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 2px 2px 40px inset;
+  margin-right: 11px;
+}
+.parent-avatar{
+  position: relative;
+  width: 110px;
+
+}
+.icon-verified {
+  color: var(--blue);
+  position:absolute ;
+  right: 0;
+  
+}
+
+.icons {
+  gap: 1rem;
+  margin: 15px 10px;
+}
+
+section.hero h1 {
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+section.hero p {
+  margin: 15px 5px;
+}

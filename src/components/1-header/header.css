@@ -1,0 +1,126 @@
+header ul.flex {
+  gap: 16px;
+}
+
+header.flex nav {
+  background-color: var(--bgheader);
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 2px 2px 2px rgb(8, 8, 8);
+}
+
+header .mood,
+header .icon-menu {
+  background-color: var(--bgheader);
+  border: solid 1px rgba(89, 88, 88, 0.973);
+  border-radius: 50%;
+  padding: 5px;
+  color: var(--subtitle);
+}
+
+header .mood,
+header .icon-menu:hover {
+  color: var(--title);
+  border: solid 1px rgba(239, 161, 153, 0.825);
+}
+
+header .icon-cross {
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+header .icon-cross:hover {
+  font-size: 1.7rem;
+  color: crimson;
+  transform: rotate(180deg);
+}
+
+header ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+header ul li a:hover {
+  color: var(--blue);
+  opacity: 1;
+  font-size: 0.9rem;
+}
+
+header button {
+  font-size: 1.2rem;
+}
+
+header.flex {
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  margin-top: 1rem;
+}
+
+header .menu {
+  display: none;
+}
+
+header .fixed {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(40, 40, 48, 0.91);
+  backdrop-filter: blur(4px);
+}
+
+@keyframes move {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+header .fixed .modal {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background-color: var(--secandary);
+  animation: move 1s 1;
+}
+
+header .fixed .modal li {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.77rem;
+  padding-top: 0.5rem;
+}
+
+header .fixed .modal li:last-child {
+  border: none;
+}
+
+header .fixed .modal li a {
+  font-size: 1rem;
+}
+
+header .fixed .modal li:first-child {
+  border: none;
+  text-align: right;
+  padding-bottom: 0;
+  padding-top: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  header.flex nav {
+    display: none;
+  }
+  header .menu {
+    display: block;
+  }
+}
+
+.icon-sun {
+  color: orange;
+}

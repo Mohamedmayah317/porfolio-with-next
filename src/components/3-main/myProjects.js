@@ -1,0 +1,36 @@
+export const myProject = [{
+        id: 1,
+        projectTitle: "css",
+        projectSubTitle: "timer",
+        category: ["css"],
+        image: "/1.jpg",
+    },
+    {
+        id: 2,
+        projectTitle: "javascript",
+        projectSubTitle: "crude project",
+        category: ["javascript"],
+        image: "/me.png",
+    },
+    {
+        id: 3,
+        projectTitle: "react",
+        projectSubTitle: "crude project with react",
+        category: ["react"],
+        image: "/mayah.jpg",
+    },
+    {
+        id: 4,
+        projectTitle: "Node & Express",
+        projectSubTitle: "Node & Express",
+        category: ["Express", "Bootstrap"],
+        image: "/mayah.jpg",
+    },
+    {
+        id: 5,
+        projectTitle: "css",
+        projectSubTitle: "timer",
+        category: ["Bootstrap"],
+        image: "/1.jpg",
+    },
+];

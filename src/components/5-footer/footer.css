@@ -1,0 +1,18 @@
+footer.flex {
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+footer.flex ul {
+  gap: 1rem;
+}
+
+footer.flex ul li a {
+  color: var(--title);
+  font-size: 0.9rem;
+}
+
+footer.flex ul li a:hover {
+  color: var(--blue);
+  font-size: 1rem;
+}

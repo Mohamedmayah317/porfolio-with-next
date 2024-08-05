@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: aqua;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Reem+Kufi:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+:root {
+  --primary: #000;
+  --secandary: rgb(24 24 27);
+  --border: rgba(63, 63, 70, 0.4);
+  --title: rgb(244 244 245);
+  --subtitle: rgb(161 161 170);
+  --bgheader: rgb(39, 39, 42);
+  --blue: rgb(93, 188, 252);
+  --icon-hover: #d4d4d8;
+}
+
+.light {
+  --primary: #fff;
+  --secandary: rgb(241, 241, 248);
+  --border: rgba(230, 230, 241, 0.4);
+  --title: rgb(8, 8, 8);
+  --subtitle: rgb(161 161 170);
+  --bgheader: rgb(241, 241, 244);
+  --blue: rgb(93, 188, 252);
+  --icon-hover: #d4d4d8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--title);
+}
+
+html {
+  font-family: "roboto";
+  letter-spacing: 0.1;
+}
+
+.container {
+  width: 80%;
+  border: solid 2px var(--border);
+  margin: auto;
+  background-color: var(--secandary);
+  padding: 0 3rem;
+}
+
+.divider {
+  border-bottom: 1px solid var(--border);
+  margin: 3rem 0;
+  width: calc(100% + 1.7rem + 1.7rem);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+  transition: 0.2s;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+button {
+  all: unset;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.92;
+}
+
+.scrolltotop {
+  position: fixed;
+  right: 3%;
+  bottom: 2rem;
+  font-size: 50px;
+  width: 2.6rem;
+  height: 2.6rem;
+  background-color: var(--blue);
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid var(--icon-hover);
+}
+
+.scrolltotop:hover {
+  background-color: rgba(150, 99, 232, 0.908);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    padding: 0 1.7rem;
+  }
+}

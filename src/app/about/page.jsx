@@ -1,0 +1,8 @@
+export default function About() {
+  return (
+    <div>
+        <h1 className="text-8xl text-center mb-9 animate-pulse">MOHAMED MAYAH</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo neque vel sequi eligendi dicta tempore nesciunt cupiditate omnis molestiae voluptates animi architecto accusantium, vero deserunt a! Possimus incidunt fuga quasi, culpa maxime impedit assumenda quia magni. Esse veniam eius qui ipsam praesentium dolorem pariatur consequuntur cum cupiditate expedita nihil, accusantium, enim consectetur optio nesciunt iusto distinctio. Eveniet deleniti asperiores quos nostrum, ad officia aspernatur quibusdam qui amet animi dolorum, nulla nam at tempore autem minus aut nisi. Eos dolor minima dicta voluptas dolores qui necessitatibus sequi dolore, itaque molestias cum sit assumenda exercitationem totam esse at praesentium facere provident nobis mollitia. Veniam recusandae, labore obcaecati a eum inventore error quia fuga tenetur enim nulla corporis magnam earum molestiae deserunt ratione? Nesciunt quia nostrum soluta qui aut quaerat velit alias pariatur, illo consequuntur. Voluptates minus dolorum sit modi quas unde aut iste adipisci velit atque molestiae magni distinctio, fugit laboriosam, suscipit dicta quibusdam sapiente quaerat nisi enim deserunt recusandae dolorem hic. Consequuntur nostrum doloribus sit laudantium amet ipsum ea animi enim cum numquam magnam, nisi soluta laborum id temporibus pariatur corrupti, tempore dolor harum voluptatum autem possimus eius? Sed similique, consequatur eveniet reprehenderit error aliquid asperiores laborum blanditiis, eius nemo ipsum.</p>
+    </div>
+  );
+}
